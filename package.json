@@ -3,9 +3,20 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "start": "node .output/server/index.mjs"
+    "start": "node .output/server/index.mjs",
+    "storybook": "start-storybook -p 6006 -s ./public,./assets"
   },
   "devDependencies": {
-    "nuxt3": "latest"
+    "nuxt3": "latest",
+    "tailwindcss": "^3.0.18"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^1.0.5",
+    "@vueuse/nuxt": "^7.5.5",
+    "add": "^2.0.6",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "vue3-highlightjs": "^1.0.5",
+    "yarn": "^1.22.17"
   }
 }
