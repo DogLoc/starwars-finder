@@ -1,8 +1,7 @@
 module.exports = {
     content: [
-      './components/*.{js,vue,ts}',
-      './pages/**/*.vue',
-      "./node_modules/flowbite/**/*.js"
+        './components/**/*.{js,vue,ts}',
+        './pages/**/*.vue',
     ],
     theme: {
         fontFamily: {
@@ -10,7 +9,7 @@ module.exports = {
         },
         extend: {
             colors: {
-                
+                sub : '#788596'
             },
         },
     },

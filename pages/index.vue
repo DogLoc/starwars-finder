@@ -1,8 +1,6 @@
 <template>
   <div>
-    <section>
-        <h1>Hello</h1>
-    </section>
+    <home-header />
   </div>
 </template>
 

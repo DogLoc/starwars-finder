@@ -11,3 +11,24 @@
     font-weight: 700;
     font-display: swap;
 }
+
+@font-face {
+    font-family: "sw-aurek";
+    src: url("../fonts/sw-aurek/Aurek.woff2") format('woff2'),
+         url("../fonts/sw-aurek/Aurek.woff") format('woff'),
+         url("../fonts/sw-aurek/Aurek.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "sw-gothic";
+    src: url("../fonts/sw-gothic/sw-gothic.otf");
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "sw-av";
+    src: url("../fonts/sw-av/Medium.otf");
+    font-weight: 700;
+    font-display: swap;
+}
