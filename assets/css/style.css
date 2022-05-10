@@ -1,11 +1,17 @@
 html, body {
-    background-color: #0F1223 ;
     scroll-behavior: smooth;
+}
+body{
+    @apply bg-night;
 }
 
 h1, h2 {
     font-family: 'sw-gothic';
     color: white;
+}
+
+section{
+    height: 100vh;
 }
 
 .stars, .twinkling {
@@ -31,6 +37,22 @@ h1, h2 {
     -o-animation:move-twink-back 600s linear infinite;
     -webkit-animation:move-twink-back 600s linear infinite;
     animation:move-twink-back 600s linear infinite;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #383838;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    @apply bg-sub;
 }
 
 @keyframes move-twink-back {

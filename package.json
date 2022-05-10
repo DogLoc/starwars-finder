@@ -11,11 +11,13 @@
     "tailwindcss": "^3.0.18"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.4.3",
     "@heroicons/vue": "^1.0.5",
     "@vueuse/nuxt": "^7.5.5",
     "add": "^2.0.6",
     "autoprefixer": "^10.4.2",
     "postcss": "^8.4.6",
+    "vue3-carousel": "^0.1.38",
     "vue3-highlightjs": "^1.0.5",
     "yarn": "^1.22.17"
   }

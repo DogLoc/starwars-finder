@@ -1,6 +1,7 @@
 <template>
-  <div>
+  <div v-scroll>
     <home-header />
+    <home-movies/>
   </div>
 </template>
 

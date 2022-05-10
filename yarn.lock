@@ -284,6 +284,11 @@
   dependencies:
     mime "^3.0.0"
 
+"@headlessui/vue@^1.4.3":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@headlessui/vue/-/vue-1.6.0.tgz#e8242a0fb43fa2f7a0a82f1673c2ca221575a48d"
+  integrity sha512-oB3R1G8BDDcTwaLqkr9G2swJlu62IaC6900fzsFglLVKG25jKOwOrlWKwjFNOMzmSQe/vCvoWJENWfeH10D4AA==
+
 "@heroicons/vue@^1.0.5":
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/@heroicons/vue/-/vue-1.0.6.tgz#d8b90734b436eb5a87f40cc300b64a0fb0031f7f"
@@ -4730,6 +4735,11 @@ vue-server-renderer@^2.6.14:
     resolve "^1.2.0"
     serialize-javascript "^3.1.0"
     source-map "0.5.6"
+
+vue3-carousel@^0.1.38:
+  version "0.1.38"
+  resolved "https://registry.yarnpkg.com/vue3-carousel/-/vue3-carousel-0.1.38.tgz#dbd832ef7eb936d1e699cabc83d34472787174f2"
+  integrity sha512-mTWvlyFIu2QqnMbHiphdJWKRBaPHG8oXr5fcRWjvnPwcQ3XCpI9/FLDI/l1vVBCs13hBSuKp/kYleuxs2WOoKA==
 
 vue3-highlightjs@^1.0.5:
   version "1.0.5"

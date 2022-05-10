@@ -9,7 +9,8 @@ module.exports = {
         },
         extend: {
             colors: {
-                sub : '#788596'
+                sub : '#788596',
+                night : '#00113f'
             },
         },
     },
